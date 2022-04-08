@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.events {
+    height: 450vh;
+    background-color:#333;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+.calltoaction {
+    height: 400px;  
+    width: 100%;
+    background-image: url("../styles/sport.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
+    background-color:#333;
+    margin-top: 30px;
+
+} 
+
+.calltoaction-info{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    color: yellow ;
+    letter-spacing: .1em;
+    padding-bottom: 100px;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+  
+}
+
+.about {
+    height: 400px;
+    background-color:  rgb(31, 29, 29);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about-section {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.about-us {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    color: #e0dfdc;
+    background-color: rgb(31, 29, 29);
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+
+}
+
+.about-box{
+    background-color: #333;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    align-content: center;
+    text-align: center;
+    justify-content: space-evenly; 
+    margin-left: 40px;
+    box-shadow: 0 4px 24px rgb(0 0 0 / 45%);
+    font-size: 20px;
+    border-radius: 16px;
+    gap: 10px; 
+}
+
+#ticket {
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.about-box p {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.sport {
+    height: 600px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    gap: 20px;
+
+}
+
+.sport-header{
+    /* color: white; */
+    margin-top: 20px;
+    color: #e0dfdc;
+    background-color: #333;
+    margin-top: 50px;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.sport-2 {
+    height: 500px;
+    width: 1200px;
+    background-color:#333;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 30px;
+    grid-column-gap: 20px;
+    margin-left: 40px;
+    margin-bottom: 70px;
+    box-shadow: 4px 4px 6px 4px rgba(10, 10, 10, 0.45);
+
+}
+
+.sport-card-container {
+    height: 550px;
+    width: 400px;
+    background-color: rgb(31, 29, 29);
+    box-shadow: 4px 4px 6px 4px rgba(10, 10, 10, 0.45);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.sport-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    row-gap: 15px;
+}
+
+
+
+.sport-card-img {
+    height: 100px;
+    /* width: 250px; */
+}
+
+#sport-pic {
+    height: 250px;
+    width: 400px;
+}
+
+.see-tickets{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color:white;
+    background-color: black;
+    border: transparent;
+    border-style: solid ;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(122, 122, 122);
+    transition: ease-out 0.3s;
+    outline: white;
+    
+}
+
+.see-tickets:hover {
+    box-shadow: inset 100px 0 0 0 white;
+     color: black;
+}
+
+
+#footer-icon {
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+
+.footer {
+    height: 70px;
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;  
+    text-align: center; 
+    margin-top: auto;
+    flex: 0 0 50px; 
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+#button {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color:white;
+    background-color: black;
+    border: white;
+    border-style: solid ;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(122, 122, 122);
+    transition: ease-out 0.3s;
+    outline: white;
+}
+
+#button:hover {
+    box-shadow: inset 100px 0 0 0 white;
+    color: black;
+}
+
+#footer-icon {
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+@media only screen and (max-width: 600px ) {
+   
+    .about {
+        height: 1100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 350px;
+    }
+    .about-us {
+        height: 150px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;  
+        margin-top: 50px;      
+    }
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .about-box {
+        height: 500px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center;
+        text-align:center;
+        padding-top: 20px; 
+        padding-bottom: 30px;  
+    }
+
+    .sport-2 {
+        grid-template-columns: repeat(1, 1fr);
+        height: 350px;
+        width: 300px;
+    }
+
+    .sport-card-container {
+        height: 550px;
+        width: 400px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        padding-bottom: 20px;
+    }
+    .calltoaction {
+        margin-top: 200px;
+        width: 600px;
+        margin-bottom: 40px;
+    }
+    .calltoaction-info {
+        width: 600px;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+        padding-top:60px;
+    }
+
+    .footer {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        gap: 15px
+    }
+}
